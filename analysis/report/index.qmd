@@ -20,6 +20,8 @@ format:
   html:
     code-fold: true
     code-tools: false
+cluster: clinical-and-cloud
+cluster-order: 3
 ---
 
 ![A secure server room with clinical research
@@ -688,3 +690,13 @@ I would enjoy hearing from readers who:
   or reproducible research.
 - Have questions about anything in this tutorial.
 - Simply want to say hello and connect.
+
+## Related posts in this cluster
+
+This post is part of the *Clinical Trials and Cloud Deployment* series.
+Recommended reading order:
+
+1. Post 95: [Clinical Trial Data Validation Across Languages](../95-cln-multilang-trial-validation/)
+2. Post 96: [Provisioning AWS EC2 Instances](../96-cln-aws-ec2-provisioning/)
+3. **Post 97: Running ZZedc Independently for Clinical Trials** (this post)
+
