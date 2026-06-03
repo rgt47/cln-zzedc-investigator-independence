@@ -9,7 +9,7 @@ description: >
   independence in clinical data management was until
   I deployed ZZedc on a personal AWS instance and
   ran a pilot study without vendor involvement.
-image: "media/images/hero.jpg"
+image: "media/images/hero.png"
 document-type: "blog"
 draft: false
 execute:
@@ -26,7 +26,7 @@ cluster-order: 3
 
 ![A secure server room with clinical research
 data management infrastructure
-visible](media/images/hero.jpg){.img-fluid
+visible](media/images/hero.png){.img-fluid
 width=80% fig-align="center"}
 
 *Investigator-controlled electronic data capture
