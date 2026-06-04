@@ -11,7 +11,7 @@ description: >
   ran a pilot study without vendor involvement.
 image: "media/images/hero.png"
 document-type: "blog"
-draft: false
+draft: true
 execute:
   echo: true
   warning: false
@@ -238,7 +238,7 @@ Key design points:
 
 ![A server architecture diagram with database,
 application, and web layers
-labelled](media/images/ambiance2.jpg){.img-fluid}
+labelled](media/images/ambiance2.png){.img-fluid}
 
 *Standard components and portable data formats
 enable investigator independence.*
@@ -461,7 +461,7 @@ institutional compliance and IT teams is essential.
 ![A long-term planning document for clinical
 research infrastructure beside a laptop showing
 deployment
-monitoring](media/images/ambiance3.jpg){.img-fluid}
+monitoring](media/images/ambiance3.png){.img-fluid}
 
 *Long-term sustainability requires planning for
 maintenance, updates, and eventual data archival.*
