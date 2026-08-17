@@ -1,14 +1,9 @@
 ---
-title: "Running ZZedc Independently for Clinical
-  Research Data Management"
+title: "Running ZZedc Independently for Clinical Research Data Management"
 author: "Ronald G. Thomas"
 date: "2025-12-07"
 categories: [clinical-trials, shiny, aws, reproducibility]
-description: >
-  I did not really know how achievable investigator
-  independence in clinical data management was until
-  I deployed ZZedc on a personal AWS instance and
-  ran a pilot study without vendor involvement.
+description: "I did not really know how achievable investigator independence in clinical data management was until I deployed ZZedc on a personal AWS instance and ran a pilot study without vendor involvement."
 image: "media/images/hero.png"
 document-type: "blog"
 draft: true
@@ -234,7 +229,7 @@ Key design points:
 
 ![A server architecture diagram with database,
 application, and web layers
-labelled](media/images/ambiance2.png){.img-fluid}
+labelled](media/images/ambiance2.png){.img-fluid height=3.5in}
 
 *Standard components and portable data formats
 enable investigator independence.*
@@ -457,7 +452,7 @@ institutional compliance and IT teams is essential.
 ![A long-term planning document for clinical
 research infrastructure beside a laptop showing
 deployment
-monitoring](media/images/ambiance3.png){.img-fluid}
+monitoring](media/images/ambiance3.png){.img-fluid height=3.5in}
 
 *Long-term sustainability requires planning for
 maintenance, updates, and eventual data archival.*
