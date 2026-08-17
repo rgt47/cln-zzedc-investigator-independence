@@ -16,10 +16,6 @@ execute:
   echo: true
   warning: false
   message: false
-format:
-  html:
-    code-fold: true
-    code-tools: false
 cluster: clinical-and-cloud
 cluster-order: 3
 ---
