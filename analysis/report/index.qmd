@@ -56,7 +56,7 @@ managing one's own clinical data infrastructure.
 
 More formally, this post documents the convergence of the
 Cloud and Applications layers of the Workflow Construct
-described in [post 52](/posts/52-workflow-construct/),
+described in [A Workflow Construct for the Modern Data Scientist](../wf-construct-overview-anchor/),
 specifically running ZZedc as a Shiny application on EC2 with
 an independently provisioned database. This is the construct's
 worked example for hosting a researcher-facing clinical data
@@ -606,7 +606,7 @@ cost.
 **Related posts:**
 
 - [Testing Data Analysis Workflows](
-  ../40-testingfordataanalysisworkflow/):
+  ../rp-testing-data-analysis/):
   Testing strategies for research pipelines
 
 **Key resources:**
