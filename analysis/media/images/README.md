@@ -1,5 +1,17 @@
 # Image attributions
 
+## Status (2026-08-25)
+
+`hero.jpg` is a genuine Gemini generation as of 2026-08-25 (generated
+via the `gemini-image-generator` tool), replacing an R + Shiny logo
+lockup image.
+
+- `hero.jpg`: a single potted plant standing independently on a
+  windowsill, away from a cluster of other plants on a shared shelf.
+  Metaphor: independent operation, decoupled from a shared system.
+
+Processed via `magick -resize 1600x -strip -quality 85` to 1600x873.
+
 ## Placeholder coffee images (temporary ambiance slots)
 
 These images are shared placeholders used across all posts until replaced

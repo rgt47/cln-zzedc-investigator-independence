@@ -15,9 +15,10 @@ cluster: clinical-and-cloud
 cluster-order: 3
 ---
 
-![A secure server room with clinical research
-data management infrastructure
-visible](media/images/hero.png){.img-fluid
+![A single potted plant standing independently on a
+windowsill, away from a cluster of other plants on a
+shared shelf: independent operation, decoupled from a
+shared system](media/images/hero.jpg){.img-fluid
 width=80% fig-align="center"}
 
 *Investigator-controlled electronic data capture
