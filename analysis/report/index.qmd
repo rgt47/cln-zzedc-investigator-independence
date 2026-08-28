@@ -30,18 +30,18 @@ I did not really know how achievable investigator
 independence in clinical data management was until
 I deployed ZZedc on a personal AWS instance and ran
 a pilot study without vendor involvement. For years,
-my research programmes depended on commercial EDC
+my research programs depended on commercial EDC
 systems with annual licensing fees, proprietary data
 formats, and vendor-controlled infrastructure. When
-a vendor relationship deteriorated, the cost of
-migration was staggering.
+a vendor relationship deteriorated, the estimated
+cost of migration reached $20,000.
 
 The experience taught me that the barriers to
 investigator-managed EDC are not primarily
 technical. ZZedc installs in minutes, runs on
 standard infrastructure, and stores data in
 portable SQLite databases. The barriers are
-organisational: convincing the research team and
+organizational: convincing the research team and
 institution that they can manage the infrastructure,
 security, and maintenance that vendors normally
 handle.
@@ -66,9 +66,9 @@ rather than depending on a third-party managed service.
 
 ## Motivations
 
-- My research programme was paying $40,000 per year
+- My research program was paying $40,000 per year
   in EDC licensing for a system that restricted
-  customisation and locked data in a proprietary
+  customization and locked data in a proprietary
   format.
 - A vendor relationship deteriorated, and the
   estimated cost of data migration was $20,000 for
@@ -321,8 +321,8 @@ launch_zzedc()
 
 Jane has a secure, validated EDC system running
 locally. She can create forms for baseline, weekly,
-and endpoint visits; enrol patients and enter data;
-generate enrolment reports; export data to Excel for
+and endpoint visits; enroll patients and enter data;
+generate enrollment reports; export data to Excel for
 analysis; and back up by copying a single file to
 Dropbox.
 
@@ -338,7 +338,7 @@ The ADHD research consortium at 5 universities
 currently uses an expensive commercial EDC that
 costs $40,000/year and is inflexible. They want to
 migrate to something more affordable and
-customisable.
+customizable.
 
 ```bash
 ./aws_setup.sh \
@@ -350,7 +350,7 @@ customisable.
   --instance-type t3.large
 ```
 
-A single centralised instance accessible from all
+A single centralized instance accessible from all
 5 sites with HTTPS and automatic security
 certificates. Role-based access: 2 administrators,
 5 principal investigators, 20 coordinators, 5 data
@@ -403,7 +403,7 @@ institutional requirements.
 - HTTPS support with automatic certificate
   management via Let's Encrypt.
 - Database encryption options.
-- Session timeout controls to prevent unauthorised
+- Session timeout controls to prevent unauthorized
   access.
 
 **Important note:** Regulatory compliance (GDPR,
@@ -419,7 +419,7 @@ institutional compliance and IT teams is essential.
 | Infrastructure | ~$40-500/mo | $200-1000/mo | $500-2000/mo |
 | Staff time | Required | Minimal | Minimal |
 | Data format | SQLite | Proprietary | Proprietary |
-| Customisation | Full source | Limited | Limited |
+| Customization | Full source | Limited | Limited |
 | Support | Community | Commercial | Commercial |
 | Data control | Local | Vendor | Vendor |
 | Learning curve | Moderate | Low | Low |
@@ -458,12 +458,12 @@ monitoring](media/images/ambiance3.png){.img-fluid height=3.5in}
 *Long-term sustainability requires planning for
 maintenance, updates, and eventual data archival.*
 
-## Lessons Learnt
+## Lessons Learned
 
 ### Conceptual Understanding
 
 - The barriers to investigator-managed EDC are
-  primarily organisational, not technical. ZZedc
+  primarily organizational, not technical. ZZedc
   installs and runs with minimal technical effort;
   the challenge is accepting responsibility for
   infrastructure.
@@ -514,7 +514,7 @@ maintenance, updates, and eventual data archival.*
 ## Limitations
 
 - ZZedc requires technical staff for deployment
-  and maintenance. Programmes without IT support
+  and maintenance. Programs without IT support
   capacity should consider vendor-managed
   alternatives.
 - The comparison with commercial systems (REDCap,
@@ -559,7 +559,7 @@ maintenance, updates, and eventual data archival.*
 
 Running ZZedc independently for clinical research
 data management is technically achievable and
-financially attractive for programmes with the
+financially attractive for programs with the
 technical capacity to manage their own
 infrastructure. The system installs quickly, stores
 data in portable formats, and provides the core
@@ -569,8 +569,8 @@ access).
 
 What this evaluation made clear is that the decision
 between investigator-managed and vendor-managed EDC
-is not about technology. It is about organisational
-capacity. Programmes with staff who can manage AWS
+is not about technology. It is about organizational
+capacity. Programs with staff who can manage AWS
 instances, apply security patches, and verify
 backups have a strong financial case for self-managed
 EDC. Where that capacity is absent, the hidden costs
@@ -581,7 +581,7 @@ Investigators interested in this approach are
 encouraged to start with the solo researcher path:
 deploy ZZedc on a laptop, create a small pilot
 study, and evaluate whether the system meets
-programme needs before committing to AWS deployment.
+program needs before committing to AWS deployment.
 The migration path from local to cloud is
 straightforward.
 
