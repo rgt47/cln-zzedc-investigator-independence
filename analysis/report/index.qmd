@@ -690,5 +690,6 @@ Recommended reading order:
 
 1. Post 95: [Clinical Trial Data Validation Across Languages](../cln-multilang-trial-validation/)
 2. Post 96: [Provisioning AWS EC2 Instances](../cln-aws-ec2-provisioning/)
-3. **Post 97: Running ZZedc Independently for Clinical Trials** (this post)
+3. Post 97: [Hosting a Shiny App in Production](../cln-shiny-docker-caddy-hosting/)
+4. **Post 98: Running ZZedc Independently for Clinical Trials** (this post)
 
