@@ -6,7 +6,7 @@ categories: [clinical-trials, shiny, aws, reproducibility]
 description: "I did not really know how achievable investigator independence in clinical data management was until I deployed ZZedc on a personal AWS instance and ran a pilot study without vendor involvement."
 image: "media/images/hero.png"
 document-type: "blog"
-draft: true
+draft: false
 execute:
   echo: true
   warning: false
