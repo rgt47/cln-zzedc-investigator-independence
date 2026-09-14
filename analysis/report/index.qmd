@@ -3,7 +3,7 @@ title: "Running ZZedc Independently for Clinical Research Data Management"
 author: "Ronald G. Thomas"
 date: "2025-12-07"
 categories: [clinical-trials, shiny, aws, reproducibility]
-description: "I did not really know how achievable investigator independence in clinical data management was until I deployed ZZedc on a personal AWS instance and ran a pilot study without vendor involvement."
+description: "Investigator independence in clinical data management is more achievable than it appears: I deployed ZZedc on a personal AWS instance and ran a pilot study without vendor involvement."
 image: "media/images/hero.png"
 document-type: "blog"
 draft: false
@@ -26,9 +26,9 @@ returns data ownership to the research team.*
 
 # Introduction
 
-I did not really know how achievable investigator
-independence in clinical data management was until
-I deployed ZZedc on a personal AWS instance and ran
+Investigator independence in clinical data
+management is more achievable than it appears. I
+deployed ZZedc on a personal AWS instance and ran
 a pilot study without vendor involvement. For years,
 my research programs depended on commercial EDC
 systems with annual licensing fees, proprietary data
